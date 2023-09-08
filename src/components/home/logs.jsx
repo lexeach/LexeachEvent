@@ -5,7 +5,7 @@ function Logs() {
   
   useEffect(() => {
     // Define the URL of the API you want to fetch data from
-    const apiUrl = "http://localhost:3032/get-registartion"; // Replace with your API URL
+    const apiUrl = "https://eventlog.onrender.com/get-registartion"; // Replace with your API URL
     
     fetch(apiUrl)
       .then((response) => {
